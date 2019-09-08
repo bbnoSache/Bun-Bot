@@ -4,7 +4,7 @@ let activated = '0'
 
 bot.on('ready', ()=>{
     console.log('Online.')
-    bot.user.setActivity(`Buns Streams!`, {type: ("WATCHING")})
+    bot.user.setActivity(`https://www.twitch.tv/bun_nie`, {type: ("WATCHING")})
     var Channel = bot.channels.get("620109248893943828");
     Channel.fetchMessage("620115878020644868");
 })
